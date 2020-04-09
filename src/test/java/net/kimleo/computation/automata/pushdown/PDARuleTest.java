@@ -2,7 +2,7 @@ package net.kimleo.computation.automata.pushdown;
 
 import org.junit.Test;
 
-import static net.kimleo.commons.$C.listOf;
+import static net.kimleo.commons.C.listOf;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 

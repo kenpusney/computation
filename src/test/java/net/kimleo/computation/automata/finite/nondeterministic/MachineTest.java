@@ -5,8 +5,8 @@ import org.junit.Test;
 
 import java.util.Set;
 
-import static net.kimleo.commons.$C.listOf;
-import static net.kimleo.commons.$C.setOf;
+import static net.kimleo.commons.C.listOf;
+import static net.kimleo.commons.C.setOf;
 import static org.hamcrest.CoreMatchers.hasItems;
 import static org.junit.Assert.*;
 

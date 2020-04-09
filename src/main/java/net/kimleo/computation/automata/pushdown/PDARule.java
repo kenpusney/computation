@@ -1,6 +1,6 @@
 package net.kimleo.computation.automata.pushdown;
 
-import net.kimleo.commons.$C;
+import net.kimleo.commons.C;
 
 import java.util.List;
 
@@ -27,7 +27,7 @@ public class PDARule<T> {
 
     public Stack<Character> next_stack(PDAConfiguration<T> configuration) {
         Stack<Character> popedStack = configuration.stack().pop();
-        List<Character> chars = $C.reverse(pushCharacters);
+        List<Character> chars = C.reverse(pushCharacters);
         return chars.stream().reduce(popedStack, Stack::push, (s, s1) -> s );
     }
 

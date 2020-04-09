@@ -1,6 +1,6 @@
 package net.kimleo.computation.automata.finite.nondeterministic;
 
-import net.kimleo.commons.function.Pair;
+import net.kimleo.commons.Pair;
 import net.kimleo.computation.automata.finite.DFADesign;
 import net.kimleo.computation.automata.finite.DFARulebook;
 import net.kimleo.computation.automata.finite.FARule;
@@ -11,7 +11,7 @@ import java.util.Set;
 
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toSet;
-import static net.kimleo.commons.$C.setOf;
+import static net.kimleo.commons.C.setOf;
 
 public class NFASimulation<T> {
     private NFADesign<T> nfaDesign;

@@ -5,8 +5,8 @@ import net.kimleo.computation.automata.pushdown.Stack;
 
 import java.util.List;
 
-import static net.kimleo.commons.$C.listOf;
-import static net.kimleo.commons.$C.setOf;
+import static net.kimleo.commons.C.listOf;
+import static net.kimleo.commons.C.setOf;
 
 public class NPDADesign<T> {
     private T startState;

@@ -8,7 +8,7 @@ import java.util.List;
 
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
-import static net.kimleo.commons.$C.listOf;
+import static net.kimleo.commons.C.listOf;
 
 public class SimpleParser {
 

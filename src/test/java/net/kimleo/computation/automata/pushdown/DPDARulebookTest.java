@@ -2,8 +2,8 @@ package net.kimleo.computation.automata.pushdown;
 
 import org.junit.Test;
 
-import static net.kimleo.commons.$C.listOf;
-import static net.kimleo.commons.$C.setOf;
+import static net.kimleo.commons.C.listOf;
+import static net.kimleo.commons.C.setOf;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 

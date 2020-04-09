@@ -2,7 +2,7 @@ package net.kimleo.computation.automata.pushdown;
 
 import java.util.Set;
 
-import static net.kimleo.commons.$C.listOf;
+import static net.kimleo.commons.C.listOf;
 
 public class DPDADesign<T> {
     private T startState;

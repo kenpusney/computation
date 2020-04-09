@@ -1,6 +1,6 @@
 package net.kimleo.computation.automata.pushdown.parsing;
 
-import net.kimleo.commons.function.Pair;
+import net.kimleo.commons.Pair;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-import static net.kimleo.commons.$C.listOf;
+import static net.kimleo.commons.C.listOf;
 
 public class LexicalAnalyzer {
     public static final List<GrammarRule> GRAMMAR =
@@ -73,7 +73,5 @@ public class LexicalAnalyzer {
     private boolean moreToken() {
         return !source.isEmpty();
     }
-
-
 
 }

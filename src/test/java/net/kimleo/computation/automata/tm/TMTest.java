@@ -2,8 +2,8 @@ package net.kimleo.computation.automata.tm;
 
 import org.junit.Test;
 
-import static net.kimleo.commons.$C.listOf;
-import static net.kimleo.commons.$C.setOf;
+import static net.kimleo.commons.C.listOf;
+import static net.kimleo.commons.C.setOf;
 import static net.kimleo.computation.automata.tm.Direction.Left;
 import static net.kimleo.computation.automata.tm.Direction.Right;
 import static org.hamcrest.CoreMatchers.is;

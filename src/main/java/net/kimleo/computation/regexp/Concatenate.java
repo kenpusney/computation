@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Set;
 
 import static java.util.stream.Collectors.toList;
-import static net.kimleo.commons.$C.listOf;
+import static net.kimleo.commons.C.listOf;
 
 public class Concatenate implements Pattern {
 

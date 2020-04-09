@@ -5,8 +5,8 @@ import net.kimleo.computation.automata.pushdown.PDARule;
 import net.kimleo.computation.automata.pushdown.Stack;
 import org.junit.Test;
 
-import static net.kimleo.commons.$C.listOf;
-import static net.kimleo.commons.$C.setOf;
+import static net.kimleo.commons.C.listOf;
+import static net.kimleo.commons.C.setOf;
 import static org.junit.Assert.*;
 
 public class NPDATest {

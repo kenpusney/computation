@@ -1,12 +1,12 @@
 package net.kimleo.computation.automata.finite.nondeterministic;
 
-import net.kimleo.commons.function.Pair;
+import net.kimleo.commons.Pair;
 import net.kimleo.computation.automata.finite.DFADesign;
 import net.kimleo.computation.automata.finite.FARule;
 import org.junit.Test;
 
-import static net.kimleo.commons.$C.listOf;
-import static net.kimleo.commons.$C.setOf;
+import static net.kimleo.commons.C.listOf;
+import static net.kimleo.commons.C.setOf;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;

@@ -4,8 +4,8 @@ import net.kimleo.computation.automata.finite.FARule;
 import net.kimleo.computation.automata.finite.nondeterministic.NFADesign;
 import net.kimleo.computation.automata.finite.nondeterministic.NFARulebook;
 
-import static net.kimleo.commons.$C.listOf;
-import static net.kimleo.commons.$C.setOf;
+import static net.kimleo.commons.C.listOf;
+import static net.kimleo.commons.C.setOf;
 
 public class Literal implements Pattern {
 
