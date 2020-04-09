@@ -1,5 +1,11 @@
 build/
 out/
 *.class
-gradle/
 .gradle/
+
+.vscode/
+.eclipse
+.project
+.classpath
+.settings/
+bin/
